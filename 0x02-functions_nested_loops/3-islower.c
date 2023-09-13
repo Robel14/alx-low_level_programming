@@ -3,9 +3,10 @@
  * is_lowercase - Check the code
  * Return: Always 0,1
  */
-int is_lowercase(void)
+int main(void)
 {
 	int r;
+	int is_lowercase;
 
 	r = is_lowercase('H');
 	putchar(r + '0');

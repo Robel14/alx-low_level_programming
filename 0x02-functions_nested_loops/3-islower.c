@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
- * main - Check the code
+ * is_lowercase - Check the code
  * Return: Always 0,1
  */
-int main(void)
+int is_lowercase(void)
 {
 	int r;
 

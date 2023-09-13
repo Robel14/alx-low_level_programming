@@ -1,33 +1,29 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * main - prints the first 52 fibonacci numbers
+ * Return: nothing!
  */
+
 int main(void)
 {
-    int r;
+        int i = 0;
+        long j = 1, k = 2;
 
-    r = print_sign(98);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0xff);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(-1);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+        while (i < 50)
+        {
+        if (i == 0)
+        printf("%ld", j);
+        else if (i == 1)
+        printf(", %ld", k);
+        else
+        {
+        k += j;
+        j = k - j;
+        printf(", %ld", k);
+        }
+        ++i;
+        }
+        printf("\n");
+        return (0);
 }

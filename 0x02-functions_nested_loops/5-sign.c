@@ -1,29 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the first 52 fibonacci numbers
- * Return: nothing!
+ * print_sign - prints the sign of a number
+ * @n: the int to check
+ * Return: 1 and prints = if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
-
-int main(void)
+int print_sign(int n)
 {
-        int i = 0;
-        long j = 1, k = 2;
-
-        while (i < 50)
-        {
-        if (i == 0)
-        printf("%ld", j);
-        else if (i == 1)
-        printf(", %ld", k);
-        else
-        {
-        k += j;
-        j = k - j;
-        printf(", %ld", k);
-        }
-        ++i;
-        }
-        printf("\n");
-        return (0);
+	if (n > 0)
+	{
+		_putchar(' + ');
+		return (1);
+	}
+	else if ( n == 0)
 }

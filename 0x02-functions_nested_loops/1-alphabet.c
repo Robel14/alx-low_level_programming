@@ -1,5 +1,5 @@
 #include<stdio.h>
-/**
+/lphabet.c**
  * print_alphabet - Make the alphabet
  * Return: void
  */

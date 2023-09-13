@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include<mai.h>
 /**
- * main - check the code
- * Return: Always 0
+ * print_alphabet_x10 - check the code
+ * Return: void
  */
 void print_alphabet_x10(void)
 {

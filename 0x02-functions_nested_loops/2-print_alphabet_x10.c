@@ -1,4 +1,4 @@
-#include<mai.h>
+#include<stdio.h>
 /**
  * print_alphabet_x10 - check the code
  * Return: void

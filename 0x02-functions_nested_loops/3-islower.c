@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include "main.h"
+
 /**
- * is_lowercase - Check the code
- * Return: Always 0,1
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	int r;
-	int is_lowercase;
 
-	r = is_lowercase('H');
-	putchar(r + '0');
-	r = is_lowercase('o');
-	putchar(r + '0');
-	r = is_lowercase(100);
-	putchar(r + '0');
-	putchar('\n');
+	r = _islower('H');
+	_putchar(r + '0');
+	r = _islower('o');
+	_putchar(r + '0');
+	r = _islower(108);
+	_putchar(r + '0');
+	_putchar('\n');
 	return (0);
 }

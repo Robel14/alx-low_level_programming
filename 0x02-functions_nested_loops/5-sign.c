@@ -5,8 +5,9 @@
  *
  * Return: Always 0.
  */
-int print_sign
+int main (void)
 {
+	int print_sign;
 	int r;
 
 	r = print_sign(98);

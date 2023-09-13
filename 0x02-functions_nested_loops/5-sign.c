@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(print_sign)
+int print_sign
 {
 	int r;
 

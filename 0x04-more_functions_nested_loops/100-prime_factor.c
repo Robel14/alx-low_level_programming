@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - function finds and prints the largest prime factor of the number 612852475143
- * 
+ * main - func finds and prints largest prime factor of the number 612852475143
  * Return: 0 all the time
  */
 
@@ -20,7 +19,7 @@ int main(void)
 		continue;
 	}
 
-	for (divisor = 3; divisor < (prime / 2); divisor += 2)
+		for (divisor = 3; divisor < (prime / 2); divisor += 2)
 		{
 			if ((prime % divisor) == 0)
 				prime /= divisor;

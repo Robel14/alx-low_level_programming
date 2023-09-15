@@ -4,7 +4,6 @@
  * main - function prints the numbers from 1-100 but for multiples of 3,
  * Fizz is printed instead of a number, for example five
  * Buzz and for multiples of both three and five, FizzBuzz
- *
  * Return: Always 0
  */
 int main(void)
@@ -29,7 +28,7 @@ int main(void)
 			continue;
 		printf(" ");
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }

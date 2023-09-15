@@ -3,7 +3,7 @@
 
 /**
  * main - prints a Fizz Buzz Program
- * Returns: Awayls 0 (Success)
+ * Return: Awayls 0 (Success)
  */
 
 int main(void)

@@ -1,24 +1,26 @@
 #include "main.h"
-/**
- * print_rev - prints prime and reverse
- * @s: string
- * Return: 0
- */
-void print_rev(char *s)
-{
-	int longi = 0;
-	int o;
+#include <stdio.h>
 
-	while (*s != '\0')
+/**
+ * print_rev - prints a string in reverse
+ * @s:The  string to print
+ * Return: void
+ */
+
+void print_rev(char *s)
+
+{
+
+	int c = 0;
+
+	while (s[c] != '\0')
 	{
-		longi++;
-		s++;
+		c++;
 	}
-	s--;
-	for (o = longi; o .0; o--)
+
+	for (c -= 1; c >= 0; c--)
 	{
-		_putchar(*s);
-		s--;
+		_putchar(s[c]);
 	}
 	_putchar('\n');
 }

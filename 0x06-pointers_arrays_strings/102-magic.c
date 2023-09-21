@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - magic file
- * Return: 0 Always
+ * Return: Always 0
  */
 
 int main(void)

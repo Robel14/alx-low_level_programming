@@ -1,4 +1,5 @@
-python3 -c '
+#include "lists.h"
+
 def is_palindrome(n):
     return str(n) == str(n)[::-1]
 
@@ -12,4 +13,3 @@ for i in range(100, 1000):
 
 with open("102-result", "w") as file:
     file.write(str(largest_palindrome))
-'
